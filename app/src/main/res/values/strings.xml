@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DiamondKu</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_keranjang">Keranjang</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_bio">BioActivity</string>
+    <string name="title_activity_target">TargetActivity</string>
+    <string name="title_activity_akses">AksesActivity</string>
+</resources>

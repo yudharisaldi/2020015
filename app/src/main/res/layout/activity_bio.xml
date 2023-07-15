@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BioActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/lyt1"
+        android:layout_width="match_parent"
+        android:layout_height="999dp"
+        android:layout_alignParentTop="true"
+        android:background="#045693">
+
+        <TextView
+            android:id="@+id/tvjudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F O R M B U A T A K U N"
+            android:layout_marginTop="@dimen/_30ssp"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvjudul1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D I A M O N D K U"
+            android:layout_marginTop="@dimen/_10ssp"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold"
+            android:layout_below="@+id/tvjudul"
+            android:layout_centerHorizontal="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/diamond"
+            android:layout_below="@+id/tvjudul1"
+            app:backgroundTint="@color/white"/>
+
+        <RelativeLayout
+            android:id="@+id/kel2"
+            android:layout_width="@dimen/_290sdp"
+            android:layout_height="@dimen/_350sdp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_110sdp"
+            android:background="@drawable/selector2">
+        </RelativeLayout>
+
+    <EditText
+        android:id="@+id/edNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Nama"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_130sdp" />
+    <EditText
+        android:id="@+id/edUsia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Usia"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/edNama"
+        android:layout_marginTop="@dimen/_15ssp"
+        />
+    <EditText
+        android:id="@+id/edAsal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Daerah Asal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/edUsia"
+        android:layout_marginTop="@dimen/_15ssp"
+        />
+        <EditText
+            android:id="@+id/edEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Email"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/edAsal"
+            android:layout_marginTop="@dimen/_15sdp"
+            />
+        <EditText
+            android:id="@+id/edNohp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Masukan No Hp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/edEmail"
+            android:layout_marginTop="@dimen/_15sdp"
+            />
+        <EditText
+            android:id="@+id/edSingkat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Ceritakan Diri "
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/edNohp"
+            android:layout_marginTop="@dimen/_15sdp"
+            />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kel2"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        >
+
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_below="@+id/kel2"
+            android:layout_marginLeft="@dimen/_5sdp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Batal"
+            android:layout_below="@+id/kel2"
+            android:layout_marginLeft="@dimen/_35sdp"
+            />
+    </LinearLayout>
+        <ImageView
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_200sdp"
+            android:layout_marginTop="@dimen/_599sdp"
+            android:background="@drawable/diamond"
+            app:backgroundTint="@color/white"/>
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

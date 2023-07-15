@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TargetActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/lyt1"
+            android:layout_width="match_parent"
+            android:layout_height="999dp"
+            android:layout_alignParentTop="true"
+            android:background="#045693">
+
+            <TextView
+                android:id="@+id/tvjudul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="F O R M B U A T A K U N"
+                android:layout_marginTop="@dimen/_70ssp"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvjudul1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D I A M O N D K U"
+                android:layout_marginTop="@dimen/_10ssp"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold"
+                android:layout_below="@+id/tvjudul"
+                android:layout_centerHorizontal="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvhasil"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/_20ssp"
+        android:layout_marginTop="@dimen/_200sdp"
+        android:textStyle="bold"
+        android:layout_centerVertical="false"
+        android:layout_marginLeft="@dimen/_125sdp"
+        android:layout_centerHorizontal="true"
+        android:text="Hasil"/>
+
+            <ImageView
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/diamond"
+                app:backgroundTint="@color/white"/>
+            <ImageView
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="@dimen/_200sdp"
+                android:layout_marginTop="@dimen/_599sdp"
+                android:background="@drawable/diamond"
+                app:backgroundTint="@color/white"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
